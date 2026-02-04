@@ -1,53 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Vanessa's Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>My Website</title>
-        <link rel="stylesheet" href="./style.css">
-        <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    </head>
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+					<h1><strong>Learn more about me!</strong></h1>
+				</div>
+			</header>
 
-    <!-- HEADER FILE -->
-    <div id="header"></div>
-    <script>
-    fetch("header.html")
-        .then(response => response.text())
-        .then(data => {
-        document.getElementById("header").innerHTML = data;
-        });
-    </script>
+		<!-- Main -->
+			<div id="main">
 
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>My Goals</h2>
+						</header>
+						<p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+                        <p>To learn even more about me, please download my <a href="./student-wall-calendar.pdf" download="vanessa_resume.pdf"> resume</a></p>
+					</section>
 
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.linkedin.com/in/vanessa-alexandrakis-9a6ab5330/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.instagram.com/vanessa.alexandrakis/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
 
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-
-    <!-- MAIN BODY -->
-
-    <body>
-        <main>
-            <h1>Welcome to My Website</h1>
-            <button type="button">Click Me!</button>  
-        </main>
-
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    </body>
-
-
-
-
-
-    <!-- FOOTER FILE -->
-    <div id="footer"></div>
-    <script>
-    fetch("footer.html")
-        .then(response => response.text())
-        .then(data => {
-        document.getElementById("footer").innerHTML = data;
-        });
-    </script>
-
+	</body>
 </html>
