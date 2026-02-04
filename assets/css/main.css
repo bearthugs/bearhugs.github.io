@@ -3256,7 +3256,7 @@ input, select, textarea {
 	justify-content: space-between;
 	padding: var(--xy-padding);
 	user-select: none;
-	background-color: #a2a2a2;
+	background-color: #6f6b79;
 	color: #ffffff;
 	border-radius: var(--border-radius) var(--border-radius) var(--border-radius) var(--border-radius);
 	cursor: pointer;
