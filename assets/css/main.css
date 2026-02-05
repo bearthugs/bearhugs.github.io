@@ -3283,3 +3283,28 @@ input, select, textarea {
 	grid-template-rows: 0fr;
 	transition: grid-template-rows var(--transition-ms) ease-out;
 }
+
+.home_button_div {
+    display: flex;
+    justify-content: flex-start;
+	position: relative;
+    top: -75px;
+}
+
+a.home_button,
+a.home_button:visited,
+a.home_button:hover,
+a.home_button:active {
+    color: #b2b2b2;
+    text-decoration: none;
+    border-bottom: none;
+    box-shadow: none;
+}
+
+.home_button {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+ion-icon { font-size: 24px; }
