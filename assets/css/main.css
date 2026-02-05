@@ -9,25 +9,25 @@
 
 :root {
 	/* global scope */
-	--bg-color: #fff;
+	--bg-color: #eff0ea;
 	--text-color: #a2a2a2;
-	--hover-color: #49bf9d;
+	--hover-color: #caa2c3;
 	--bold-color: #787878;
-	--border-color: #efefef;
+	--border-color: #e0d0d0;
 	--code-color: #f7f7f7;
 	--header-color: #b2b2b2;
-	--extendable-color: #6f6b79;
+	--extendable-color: #d3b5cc;
 	--header-bg-color: #1f1815;
 }
 .darkmode {
-	--bg-color: #222;
-	--text-color: #a2a2a2;
-	--hover-color: #49bf9d;
-	--bold-color: #787878;
-	--border-color: #efefef;
+	--bg-color: #252832;
+	--text-color: #c7c7c7;
+	--hover-color: #8abce5;
+	--bold-color: #a2a3a4;
+	--border-color: #767b81;
 	--code-color: #f7f7f7;
 	--header-color: #b2b2b2;
-	--extendable-color: #6f6b79;
+	--extendable-color: #8abce5;
 	--header-bg-color: #1f1815;
 }
 
