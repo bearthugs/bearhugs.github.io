@@ -20,14 +20,14 @@
 	--header-bg-color: #1f1815;
 }
 .darkmode {
-	--bg-color: #252832;
+	--bg-color: #222831;
 	--text-color: #c7c7c7;
-	--hover-color: #8abce5;
-	--bold-color: #a2a3a4;
+	--hover-color: #76ABAE;
+	--bold-color: #E3E3E3;
 	--border-color: #767b81;
 	--code-color: #f7f7f7;
 	--header-color: #b2b2b2;
-	--extendable-color: #8abce5;
+	--extendable-color: #76ABAE;
 	--header-bg-color: #1f1815;
 }
 
